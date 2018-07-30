@@ -28,7 +28,7 @@ urlpatterns = [
     url(r'^add_books/',views.add_books),
     url(r'^book_details/',views.book_details),
     url(r'^book_a_book/',views.book_a_book),
-    url(r'^approve/',views.approve),
-    url(r'^$',views.session_check),
+    #url(r'^approve/',views.approve),
+    #url(r'^$',views.session_check),
 
 ]
